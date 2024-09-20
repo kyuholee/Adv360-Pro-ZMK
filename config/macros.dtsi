@@ -2,13 +2,13 @@ macro_close: macro_close{
 compatible = "zmk,behavior-macro";
 label = "macro_close";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL W>;
+bindings = <&kp LC(W)>;
 };
 macro_back: macro_back{
 compatible = "zmk,behavior-macro";
 label = "macro_back";
 #binding-cells = <0>;
-bindings = <&mt LEFT_ALT LEFT_ARROW>;
+bindings = <&kp LA(LEFT_ARROW)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
